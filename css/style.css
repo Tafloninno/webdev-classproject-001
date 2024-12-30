@@ -69,17 +69,14 @@ hr {
 }
 
 .text-content {
-	font-style: italic;
 	font-size: 3.5rem;
   }
   
   .text-content p {
 	margin: 10px 0;
-  }
-  .text-content .author{
-	font-size: 1.5rem;
-  }
-  
+	width: 100%;
+	font-size: 1rem;
+  }  
   .span1{
 	font-size: 6rem;
 	font-weight: bold;
@@ -101,13 +98,24 @@ hr {
 
 @media (min-width: 699px) {
 
-	/* CSS HERE */
+	.text-content p {
+		font-size: 2rem;
+	  }
 
 }
 
 /* Desktop Media Query */
 @media (min-width: 999px) {
 
-	/* CSS HERE */
+	.text-content .author {
+		font-size: 2.5rem;
+		font-style: italic;
+	  }
+
+	.text-content p {
+		font-size: 3.5rem;
+		
+	  }
+	  
 
 }
